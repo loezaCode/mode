@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(../light/new.img/cool-background.png);
+}
+.container.active{
+    background-image: url(../light/new.img/cool-background\ \(4\).png);
+    
+}
+.titulo {
+    color: #fff;
+}
+.top{
+    background-color: rgba(52,3,45,0.3);
+    backdrop-filter: blur(.4rem);
+}
+.info p{
+    font-size: 18px;
+    color: rgb(235, 228, 228);
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    border: 1rem solid rgba(255,255,255,0.10);
+}
+.card{
+    border-radius:  1rem;
+    box-shadow: 0 1rem 1rem  rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 15rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255,255,255,0.060);
+    color: #fff;
+}
+.crad h2{
+    letter-spacing: 1rem;
+    margin: 1rem ;
+}
+.top{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.info a{
+    padding-top: 10px;
+}
+.info h2{
+    padding-bottom: 10px;
+}
+.top i{
+    font-size: 30px;
+}
+.info{
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+}
+.boton{
+    border-radius: 3rem;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(170, 189, 206);
+    padding: 10px;
+}
+@media screen and (max-width: 375px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+}
+.container2{
+    background-color: #fff;
+}
+/*esto es para el modo nocturno*/
+.switch{
+    background-color: #343d5b;
+    border-radius: 1000px;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    
+}
+.switch span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+}
